@@ -6,7 +6,7 @@ on:
       ffmpegLibs:
         description: 'FFmpeg libraries'
         required: true
-        default: 'https://github.com/vouk/voukoder-ffmpeg/releases/latest/download/ffmpeg-win64-static-release.tar.gz'
+        default: 'https://github.com/icyllite/voukoder-ffmpeg/releases/latest/download/ffmpeg-win64-static-release.tar.gz'
       refId:
         description: 'RefId'
         required: true
