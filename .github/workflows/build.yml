@@ -114,7 +114,7 @@ jobs:
         Remove-Item -Path $env:PFX_PATH;
         
     - name: Publish artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: Voukoder ${{ github.event.inputs.verPublic }} (${{ github.event.inputs.verMajor }}.${{ github.event.inputs.verMinor }}.${{ github.event.inputs.verPatch }})
         path: voukoder-${{ github.event.inputs.verPublic }}.msi
